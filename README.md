@@ -97,7 +97,7 @@ cmake --build build
 ```
 ### ▶️ Run the simulation
 ```bash
-./build/ui/main.exe
+./bin/smart_home.exe
 ```
 ### 💬 Example output
 ```text
