@@ -101,10 +101,7 @@ cmake --build build
 ```
 ### 💬 Example output
 ```text
-[INFO] Device Registered: Light#LivingRoom
-[INFO] Temperature Sensor Reading: 19.8°C
-[ACTION] Rule Triggered: Turn on LivingRoom Light
-[INFO] Light#LivingRoom -> ON
+Smart Home Simulation Started
 ```
 
 ## 💬 Contact
