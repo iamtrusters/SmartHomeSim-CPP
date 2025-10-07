@@ -90,15 +90,15 @@ Each module corresponds to a clear architectural concern and demonstrates specif
 
 ### 🔧 Build
 ```bash
-git clone https://github.com/<your-username>/smart-home-automation.git
-cd smart-home-automation
+git clone https://github.com/iamtrusters/SmartHomeSim-CPP.git
+cd SmartHomeSim-CPP
 mkdir build && cd build
-cmake ..
-make
+cmake -S . -B build
+cmake --build build
 ```
 ### ▶️ Run the simulation
 ```bash
-./smart_home
+./build/ui/main.exe
 ```
 ### 💬 Example output
 ```text
