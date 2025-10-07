@@ -92,7 +92,6 @@ Each module corresponds to a clear architectural concern and demonstrates specif
 ```bash
 git clone https://github.com/iamtrusters/SmartHomeSim-CPP.git
 cd SmartHomeSim-CPP
-mkdir build && cd build
 cmake -S . -B build
 cmake --build build
 ```
