@@ -110,9 +110,9 @@ make
 
 ## 💬 Contact
 
-**Author:** Long Pham
-**LinkedIn:** https://www.linkedin.com/in/phamvanlong
-**Email:** longkute169@gmail.com
+👤 **Author:** Long Pham  <br>
+💼**LinkedIn:** https://www.linkedin.com/in/phamvanlong <br>
+📧**Email:** longkute169@gmail.com  
 
 ---
 
