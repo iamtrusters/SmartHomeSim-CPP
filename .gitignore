@@ -1,0 +1,11 @@
+#ignore build
+build/
+
+
+#ignore binaries
+*.exe
+*.o
+*.obj
+*.log
+*.tmp
+.DS_Store
