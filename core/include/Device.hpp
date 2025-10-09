@@ -1,5 +1,5 @@
 /**
- * @file Device.h
+ * @file Device.hpp
  * @brief Defines the abstract base class for all smart home devices.
  *
  * This file is part of the SmartHome project, which demonstrates
