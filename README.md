@@ -102,6 +102,11 @@ cmake --build build
 ### 💬 Example output
 ```text
 Smart Home Simulation Started
+Smart Home CLI Menu:
+1. List Devices
+2. Control Device
+Type 'exit' to quit.
+Enter your choice: 
 ```
 
 ## 💬 Contact
