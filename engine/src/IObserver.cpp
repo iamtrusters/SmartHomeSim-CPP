@@ -1,5 +1,5 @@
 /**
- * @file Observer.cpp
+ * @file IObserver.cpp
  * @brief Implements the Observer interface for the Observer design pattern.
  *
  *
@@ -10,6 +10,6 @@
  * @date 2025-10-09
  */
 
-#include "Observer.hpp"
+#include "IObserver.hpp"
 
 // No additional implementation needed for the Observer interface

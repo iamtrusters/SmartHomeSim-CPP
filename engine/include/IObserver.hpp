@@ -1,5 +1,5 @@
 /**
- * @file Observer.hpp
+ * @file iObserver.hpp
  * @brief Defines the Observer interface for the Observer design pattern.
  *
  * The Observer interface provides methods for attaching, detaching, and notifying
@@ -9,17 +9,17 @@
  * @date 2025-10-09
  */
 
-#ifndef OBSERVER_HPP
-#define OBSERVER_HPP
+#ifndef IOBSERVER_HPP
+#define IOBSERVER_HPP
 
 /*
  * Observer interface for the Observer design pattern.
  * Defines the update method that concrete observers must implement.
  */
-class Observer {
+class IObserver {
 public:
-    virtual ~Observer() = default;
+    virtual ~IObserver() = default;
     virtual void update() = 0;
 };
 
-#endif // OBSERVER_HPP
+#endif // IOBSERVER_HPP

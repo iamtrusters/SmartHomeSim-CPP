@@ -1,5 +1,5 @@
 /**
- * @file Subject.cpp
+ * @file ISubject.cpp
  * @brief Implements the Subject interface for the Observer design pattern.
  *
  * The Subject interface provides methods to manage observers and notify them of changes.
@@ -8,5 +8,5 @@
  * @date 2025-10-09
  */
 
-#include "Subject.hpp"
+#include "ISubject.hpp"
 

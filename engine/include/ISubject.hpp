@@ -1,5 +1,5 @@
 /**
- * @file Subject.hpp
+ * @file ISubject.hpp
  * @brief Defines the Subject interface for the Observer design pattern.
  *
  * The Subject interface provides methods to manage observers and notify them of changes.
@@ -9,23 +9,23 @@
  * @date 2025-10-09
  */
 
-#ifndef SUBJECT_HPP
-#define SUBJECT_HPP
+#ifndef ISUBJECT_HPP
+#define ISUBJECT_HPP
 
-#include "Observer.hpp"
+#include "IObserver.hpp"
 
 /*
  * Subject interface for the Observer design pattern.
  * Defines methods to manage observers and notify them of changes.
  */
 
-class Subject {
+class ISubject {
 public:
-    virtual ~Subject() = default;
+    virtual ~ISubject() = default;
 
-    virtual void attach(Observer* observer) = 0;
-    virtual void detach(Observer* observer) = 0;
+    virtual void attach(IObserver* observer) = 0;
+    virtual void detach(IObserver* observer) = 0;
     virtual void notify() = 0;
 };
 
-#endif // SUBJECT_HPP
+#endif // ISUBJECT_HPP
