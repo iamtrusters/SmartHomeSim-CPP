@@ -11,11 +11,23 @@
 #include <iostream>
 
 void DeviceManager::addDevice(const std::string& name, std::shared_ptr<Device> device) {
-    devices_[name] = device;
+    if(!device) {
+        std::cerr << "Error: Attempted to add a null device with name " << name << std::endl;
+    }else{
+        std::cout << "Adding device: " << name << std::endl;
+        devices_[name] = device;
+    }
+   
 }
 
 void DeviceManager::removeDevice(const std::string& name) {
-    devices_.erase(name);
+    if(devices_.find(name) == devices_.end()) {
+        std::cerr << "Warning: Attempted to remove non-existent device " << name << std::endl;
+    } else{
+        std::cout << "Removing device: " << name << std::endl;
+        devices_.erase(name);
+    }
+    
 }
 
 std::shared_ptr<Device> DeviceManager::getDevice(const std::string& name) const {

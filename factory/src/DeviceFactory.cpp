@@ -17,7 +17,7 @@ std::unique_ptr<Device> DeviceFactory::createDevice(const std::string& type) {
         return std::make_unique<Light>();
     } else if (type == "thermostat") {
         return std::make_unique<Thermostat>();
-    } else if (type == "door_lock") {
+    } else if (type == "doorlock") {
         return std::make_unique<DoorLock>();
     }
     return nullptr;
