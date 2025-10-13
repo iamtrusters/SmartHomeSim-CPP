@@ -3,6 +3,9 @@ file(GLOB FACTORY_SRC "src/*.cpp")
 add_library(factory STATIC ${FACTORY_SRC})
 set_target_properties(factory PROPERTIES OUTPUT_NAME "factory")
 
+# factory depends on core (device types are defined there)
+target_link_libraries(factory PUBLIC core)
+
 # Include directories for the factory library
 target_include_directories(factory PUBLIC 
 
